@@ -7,10 +7,10 @@ export default CreateReactClass({
       names: []
     }
   },
-  
+
   render() {
-    const listItems = this.props.names.map(function(friend) {
-      return <li>{friend}</li>
+    const listItems = this.props.names.map(friend =>
+      {return <li key={friend}>{friend}</li>
     })
     return (
       <div>
