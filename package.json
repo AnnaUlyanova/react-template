@@ -17,6 +17,7 @@
     "enzyme": "^2.7.0",
     "jsx-loader": "^0.13.2",
     "nodemon": "^1.11.0",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.5.4",

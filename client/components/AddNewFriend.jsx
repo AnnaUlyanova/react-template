@@ -1,5 +1,6 @@
 import React from 'react'
 import CreateReactClass from 'create-react-class'
+import PropTypes from 'prop-types'
 
 export default CreateReactClass({
   getInitialState() {
@@ -9,7 +10,7 @@ export default CreateReactClass({
   },
 
   propTypes: {
-  addNew: React.PropTypes.func.isRequired
+  addNew: PropTypes.func
   },
 
   updateNewFriend(e) {
