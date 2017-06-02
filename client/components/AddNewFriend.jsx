@@ -8,12 +8,16 @@ export default CreateReactClass({
     }
   },
 
+  propTypes: {
+  addNew: React.PropTypes.func.isRequired
+  },
+
   updateNewFriend(e) {
     this.setState({
       newFriend: e.target.value
     })
   },
-  
+
   handleAddNew() {
     this.props.addNew(this.state.newFriend)
     this.setState( {
